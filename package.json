@@ -5,8 +5,8 @@
   "scripts": {
     "start": "node ./bin/www",
     "dev": "nodemon ./bin/www",
-    "prebuild": "cd ../project-front && yarn build",
-    "build":"cp -r ../project-front/build/ public/"
+    "prearmado": "cd ../project-front && yarn build",
+    "armado":"cp -r ../project-front/build/ public/"
   },
   "dependencies": {
     "bcrypt": "^5.0.0",
